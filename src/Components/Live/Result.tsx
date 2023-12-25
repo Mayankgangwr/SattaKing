@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import cssStyle from './Result.module.scss';
 import moment from "moment";
-import { Danger } from "../Buttons";
 
 const LiveResult = () => {
     const targetDateTime = moment('2023-12-25T21:50:01');
@@ -22,7 +21,7 @@ const LiveResult = () => {
             setTimeRemaining(calculateTimeRemaining());
         }, 1000);
         return () => clearInterval(intervalId);
-    }, []);
+    });
 
     const formattedTime = currentTime.format('MMM D, YYYY hh:mm:ss A');
     return (

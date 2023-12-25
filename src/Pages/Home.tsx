@@ -3,6 +3,7 @@ import DarkAdsCard from '../Components/AdsCard/Dark';
 import { Info, Warning } from '../Components/Buttons';
 import LightAdsCard from '../Components/AdsCard/Light';
 import LiveResult from '../Components/Live/Result';
+import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <LightAdsCard/>
             <Info/>
             <LightAdsCard/>
+            <Footer/>
         </>
     );
 };

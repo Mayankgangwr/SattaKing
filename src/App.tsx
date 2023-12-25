@@ -1,8 +1,6 @@
-import React from 'react';
 import './App.css';
 import "./custom.scss";
 import Header from './Components/Header';
-import Footer from './Components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DarkAdsCard from './Components/AdsCard/Dark';
 import Home from './Pages/Home';

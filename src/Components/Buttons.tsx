@@ -27,11 +27,11 @@ export const Info = () => {
     );
 }
 
-export const Danger = () => {
-    return (
-        <div className={`${cssStyle.Btn}`}>
-            <button className={`btn btn-danger`}>ONLINE सट्टा खेलने के लिए यहाँ CLICK करे📱</button>
-        </div>
+// export const Danger = () => {
+//     return (
+//         <div className={`${cssStyle.Btn}`}>
+//             <button className={`btn btn-danger`}>ONLINE सट्टा खेलने के लिए यहाँ CLICK करे📱</button>
+//         </div>
 
-    );
-}
+//     );
+// }
