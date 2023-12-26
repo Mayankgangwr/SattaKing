@@ -2,8 +2,8 @@ import './App.css';
 import "./custom.scss";
 import Header from './Components/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import DarkAdsCard from './Components/AdsCard/Dark';
 import Home from './Pages/Home';
+import LiveChart from './Components/Charts/LiveCharts/LiveChart';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Header />}>
             <Route index element={<Home />} />
-            <Route path="/products" element={<DarkAdsCard />} />
+            <Route path="/livechart" element={<LiveChart />} />
   
           </Route>
 
