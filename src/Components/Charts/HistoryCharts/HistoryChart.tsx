@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import cssStyle from './HistoryChart.module.scss';
 
 const HistoryChart = () => {
