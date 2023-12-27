@@ -7,8 +7,10 @@ import Footer from '../Components/Footer';
 import LiveChart from '../Components/Charts/LiveCharts/LiveChart';
 import Disclaimer from '../Components/Disclaimer';
 import HistoryChart from '../Components/Charts/HistoryCharts/HistoryChart';
+import ResultChart from '../Components/Charts/ResultChart/ResultChart';
 
 const Home = () => {
+    const Arr: any[] = ["DELHI-DARBAR", "U.P", "NEW FARIDABAD", "DELHI DAY", "GHAZIABAD DIN", "TAJ", "FARIDABAD", "GHAZIABAD", "GALI", "DISAWAR"];
     return (
         <>
             <div className={cssStyle.container}>
@@ -25,13 +27,15 @@ const Home = () => {
             <Info />
             <LightAdsCard />
             <LiveChart />
-            <HistoryChart/>
             <DarkAdsCard />
             <LightAdsCard />
             <LightAdsCard />
             <LightAdsCard />
+            <ResultChart Arr={Arr.slice(0,5)} />
+            <ResultChart Arr={Arr.slice(5,10)} />
+            <HistoryChart />
             <LightAdsCard />
-            <Disclaimer/>
+            <Disclaimer />
             <Footer />
         </>
     );

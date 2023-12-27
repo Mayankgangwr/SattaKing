@@ -1,0 +1,467 @@
+[
+    {
+        "date": "01-12-2023",
+        "games": {
+            "DELHI-DARBAR": "43",
+            "U.P": "67",
+            "NEW FARIDABAD": "96",
+            "DELHI DAY": "89",
+            "GHAZIABAD DIN": "98",
+            "TAJ": "51",
+            "FARIDABAD": "38",
+            "GHAZIABAD": "39",
+            "GALI": "78",
+            "DISAWAR": ""
+        }
+    },
+    {
+        "date": "02-12-2023",
+        "games": {
+            "DELHI-DARBAR": "21",
+            "U.P": "34",
+            "NEW FARIDABAD": "26",
+            "DELHI DAY": "16",
+            "GHAZIABAD DIN": "79",
+            "TAJ": "20",
+            "FARIDABAD": "11",
+            "GHAZIABAD": "73",
+            "GALI": "59",
+            "DISAWAR": "45"
+        }
+    },
+    {
+        "date": "03-12-2023",
+        "games": {
+            "DELHI-DARBAR": "99",
+            "U.P": "",
+            "NEW FARIDABAD": "28",
+            "DELHI DAY": "100",
+            "GHAZIABAD DIN": "08",
+            "TAJ": "28",
+            "FARIDABAD": "19",
+            "GHAZIABAD": "13",
+            "GALI": "64",
+            "DISAWAR": "30"
+        }
+    },
+    {
+        "date": "04-12-2023",
+        "games": {
+            "DELHI-DARBAR": "62",
+            "U.P": "95",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "71",
+            "GHAZIABAD DIN": "56",
+            "TAJ": "53",
+            "FARIDABAD": "98",
+            "GHAZIABAD": "44",
+            "GALI": "33",
+            "DISAWAR": "16"
+        }
+    },
+    {
+        "date": "05-12-2023",
+        "games": {
+            "DELHI-DARBAR": "32",
+            "U.P": "26",
+            "NEW FARIDABAD": "60",
+            "DELHI DAY": "22",
+            "GHAZIABAD DIN": "71",
+            "TAJ": "43",
+            "FARIDABAD": "29",
+            "GHAZIABAD": "22",
+            "GALI": "28",
+            "DISAWAR": "84"
+        }
+    },
+    {
+        "date": "06-12-2023",
+        "games": {
+            "DELHI-DARBAR": "25",
+            "U.P": "97",
+            "NEW FARIDABAD": "84",
+            "DELHI DAY": "87",
+            "GHAZIABAD DIN": "75",
+            "TAJ": "60",
+            "FARIDABAD": "86",
+            "GHAZIABAD": "98",
+            "GALI": "36",
+            "DISAWAR": "17"
+        }
+    },
+    {
+        "date": "07-12-2023",
+        "games": {
+            "DELHI-DARBAR": "87",
+            "U.P": "78",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "61",
+            "GHAZIABAD DIN": "36",
+            "TAJ": "73",
+            "FARIDABAD": "98",
+            "GHAZIABAD": "16",
+            "GALI": "97",
+            "DISAWAR": "32"
+        }
+    },
+    {
+        "date": "08-12-2023",
+        "games": {
+            "DELHI-DARBAR": "18",
+            "U.P": "11",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "13",
+            "GHAZIABAD DIN": "46",
+            "TAJ": "11",
+            "FARIDABAD": "04",
+            "GHAZIABAD": "16R",
+            "GALI": "27",
+            "DISAWAR": "11"
+        }
+    },
+    {
+        "date": "09-12-2023",
+        "games": {
+            "DELHI-DARBAR": "54",
+            "U.P": "19",
+            "NEW FARIDABAD": "50",
+            "DELHI DAY": "36",
+            "GHAZIABAD DIN": "90",
+            "TAJ": "82",
+            "FARIDABAD": "82",
+            "GHAZIABAD": "37",
+            "GALI": "88",
+            "DISAWAR": "31"
+        }
+    },
+    {
+        "date": "10-12-2023",
+        "games": {
+            "DELHI-DARBAR": "57",
+            "U.P": "42",
+            "NEW FARIDABAD": "24",
+            "DELHI DAY": "95",
+            "GHAZIABAD DIN": "48",
+            "TAJ": "89",
+            "FARIDABAD": "10",
+            "GHAZIABAD": "68",
+            "GALI": "44",
+            "DISAWAR": "34"
+        }
+    },
+    {
+        "date": "11-12-2023",
+        "games": {
+            "DELHI-DARBAR": "89",
+            "U.P": "85",
+            "NEW FARIDABAD": "91",
+            "DELHI DAY": "16",
+            "GHAZIABAD DIN": "20",
+            "TAJ": "95",
+            "FARIDABAD": "71",
+            "GHAZIABAD": "06",
+            "GALI": "64",
+            "DISAWAR": "31"
+        }
+    },
+    {
+        "date": "12-12-2023",
+        "games": {
+            "DELHI-DARBAR": "55",
+            "U.P": "72",
+            "NEW FARIDABAD": "24",
+            "DELHI DAY": "80",
+            "GHAZIABAD DIN": "94",
+            "TAJ": "41",
+            "FARIDABAD": "33",
+            "GHAZIABAD": "87",
+            "GALI": "11",
+            "DISAWAR": "46"
+        }
+    },
+    {
+        "date": "13-12-2023",
+        "games": {
+            "DELHI-DARBAR": "87",
+            "U.P": "76",
+            "NEW FARIDABAD": "37",
+            "DELHI DAY": "21",
+            "GHAZIABAD DIN": "72",
+            "TAJ": "71",
+            "FARIDABAD": "78",
+            "GHAZIABAD": "26",
+            "GALI": "75",
+            "DISAWAR": "21"
+        }
+    },
+    {
+        "date": "14-12-2023",
+        "games": {
+            "DELHI-DARBAR": "65",
+            "U.P": "01",
+            "NEW FARIDABAD": "20",
+            "DELHI DAY": "37",
+            "GHAZIABAD DIN": "69",
+            "TAJ": "14",
+            "FARIDABAD": "87",
+            "GHAZIABAD": "24",
+            "GALI": "01",
+            "DISAWAR": "47"
+        }
+    },
+    {
+        "date": "15-12-2023",
+        "games": {
+            "DELHI-DARBAR": "42",
+            "U.P": "35",
+            "NEW FARIDABAD": "23",
+            "DELHI DAY": "89",
+            "GHAZIABAD DIN": "29",
+            "TAJ": "60",
+            "FARIDABAD": "20",
+            "GHAZIABAD": "61",
+            "GALI": "03",
+            "DISAWAR": "17"
+        }
+    },
+    {
+        "date": "16-12-2023",
+        "games": {
+            "DELHI-DARBAR": "10",
+            "U.P": "22",
+            "NEW FARIDABAD": "39",
+            "DELHI DAY": "64",
+            "GHAZIABAD DIN": "49",
+            "TAJ": "51",
+            "FARIDABAD": "66",
+            "GHAZIABAD": "11",
+            "GALI": "56",
+            "DISAWAR": "26"
+        }
+    },
+    {
+        "date": "17-12-2023",
+        "games": {
+            "DELHI-DARBAR": "54",
+            "U.P": "86",
+            "NEW FARIDABAD": "48",
+            "DELHI DAY": "90",
+            "GHAZIABAD DIN": "54",
+            "TAJ": "22",
+            "FARIDABAD": "55",
+            "GHAZIABAD": "42",
+            "GALI": "07",
+            "DISAWAR": "91"
+        }
+    },
+    {
+        "date": "18-12-2023",
+        "games": {
+            "DELHI-DARBAR": "32",
+            "U.P": "78",
+            "NEW FARIDABAD": "37",
+            "DELHI DAY": "06",
+            "GHAZIABAD DIN": "01",
+            "TAJ": "46",
+            "FARIDABAD": "17",
+            "GHAZIABAD": "15",
+            "GALI": "55",
+            "DISAWAR": "42"
+        }
+    },
+    {
+        "date": "19-12-2023",
+        "games": {
+            "DELHI-DARBAR": "70",
+            "U.P": "45",
+            "NEW FARIDABAD": "54",
+            "DELHI DAY": "22",
+            "GHAZIABAD DIN": "21",
+            "TAJ": "40",
+            "FARIDABAD": "88",
+            "GHAZIABAD": "02",
+            "GALI": "35",
+            "DISAWAR": "04"
+        }
+    },
+    {
+        "date": "20-12-2023",
+        "games": {
+            "DELHI-DARBAR": "38",
+            "U.P": "63",
+            "NEW FARIDABAD": "67",
+            "DELHI DAY": "57",
+            "GHAZIABAD DIN": "15",
+            "TAJ": "92",
+            "FARIDABAD": "57",
+            "GHAZIABAD": "88",
+            "GALI": "57",
+            "DISAWAR": "36"
+        }
+    },
+    {
+        "date": "21-12-2023",
+        "games": {
+            "DELHI-DARBAR": "98",
+            "U.P": "",
+            "NEW FARIDABAD": "59",
+            "DELHI DAY": "34",
+            "GHAZIABAD DIN": "84",
+            "TAJ": "07",
+            "FARIDABAD": "47",
+            "GHAZIABAD": "19",
+            "GALI": "52",
+            "DISAWAR": "19"
+        }
+    },
+    {
+        "date": "22-12-2023",
+        "games": {
+            "DELHI-DARBAR": "43",
+            "U.P": "57",
+            "NEW FARIDABAD": "25",
+            "DELHI DAY": "62",
+            "GHAZIABAD DIN": "28",
+            "TAJ": "36",
+            "FARIDABAD": "63",
+            "GHAZIABAD": "60",
+            "GALI": "88",
+            "DISAWAR": "73"
+        }
+    },
+    {
+        "date": "23-12-2023",
+        "games": {
+            "DELHI-DARBAR": "21",
+            "U.P": "62",
+            "NEW FARIDABAD": "93",
+            "DELHI DAY": "49",
+            "GHAZIABAD DIN": "67",
+            "TAJ": "85",
+            "FARIDABAD": "53",
+            "GHAZIABAD": "32",
+            "GALI": "27",
+            "DISAWAR": "87"
+        }
+    },
+    {
+        "date": "24-12-2023",
+        "games": {
+            "DELHI-DARBAR": "86",
+            "U.P": "29",
+            "NEW FARIDABAD": "56",
+            "DELHI DAY": "28",
+            "GHAZIABAD DIN": "19",
+            "TAJ": "34",
+            "FARIDABAD": "51",
+            "GHAZIABAD": "66",
+            "GALI": "74",
+            "DISAWAR": "85"
+        }
+    },
+    {
+        "date": "25-12-2023",
+        "games": {
+            "DELHI-DARBAR": "91",
+            "U.P": "43",
+            "NEW FARIDABAD": "36",
+            "DELHI DAY": "50",
+            "GHAZIABAD DIN": "02",
+            "TAJ": "72",
+            "FARIDABAD": "72",
+            "GHAZIABAD": "47",
+            "GALI": "30",
+            "DISAWAR": "42"
+        }
+    },
+    {
+        "date": "26-12-2023",
+        "games": {
+            "DELHI-DARBAR": "42",
+            "U.P": "59",
+            "NEW FARIDABAD": "36",
+            "DELHI DAY": "79",
+            "GHAZIABAD DIN": "81",
+            "TAJ": "88",
+            "FARIDABAD": "47",
+            "GHAZIABAD": "07",
+            "GALI": "37",
+            "DISAWAR": "56"
+        }
+    },
+    {
+        "date": "27-12-2023",
+        "games": {
+            "DELHI-DARBAR": "",
+            "U.P": "",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "",
+            "GHAZIABAD DIN": "",
+            "TAJ": "51",
+            "FARIDABAD": "",
+            "GHAZIABAD": "",
+            "GALI": "",
+            "DISAWAR": "59"
+        }
+    },
+    {
+        "date": "28-12-2023",
+        "games": {
+            "DELHI-DARBAR": "",
+            "U.P": "",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "",
+            "GHAZIABAD DIN": "",
+            "TAJ": "",
+            "FARIDABAD": "",
+            "GHAZIABAD": "",
+            "GALI": "",
+            "DISAWAR": ""
+        }
+    },
+    {
+        "date": "29-12-2023",
+        "games": {
+            "DELHI-DARBAR": "",
+            "U.P": "",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "",
+            "GHAZIABAD DIN": "",
+            "TAJ": "",
+            "FARIDABAD": "",
+            "GHAZIABAD": "",
+            "GALI": "",
+            "DISAWAR": ""
+        }
+    },
+    {
+        "date": "30-12-2023",
+        "games": {
+            "DELHI-DARBAR": "",
+            "U.P": "",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "",
+            "GHAZIABAD DIN": "",
+            "TAJ": "",
+            "FARIDABAD": "",
+            "GHAZIABAD": "",
+            "GALI": "",
+            "DISAWAR": ""
+        }
+    },
+    {
+        "date": "31-12-2023",
+        "games": {
+            "DELHI-DARBAR": "",
+            "U.P": "",
+            "NEW FARIDABAD": "",
+            "DELHI DAY": "",
+            "GHAZIABAD DIN": "",
+            "TAJ": "",
+            "FARIDABAD": "",
+            "GHAZIABAD": "",
+            "GALI": "",
+            "DISAWAR": ""
+        }
+    }
+]
