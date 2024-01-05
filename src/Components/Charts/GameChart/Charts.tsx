@@ -8,7 +8,7 @@ const Charts: React.FC<IChartsProps> = ({ months, results }) => {
         const columnElements = [];
         for (let j = 0; j < 6; j++) {
             columnElements.push(
-                <td className={`text-dark`} scope='col' key={j}>
+                <td className={`text-dark`}  key={j}>
                     {results[j][i] !== "" ? results[j][i] : '00'}
                 </td>
             );
@@ -21,7 +21,7 @@ const Charts: React.FC<IChartsProps> = ({ months, results }) => {
         for (let i = 0; i < 31; i++) {
             rowElements.push(
                 <tr key={i}>
-                    <td className={`text-dark`} scope='col' key={`date-${i}`}>
+                    <td className={`text-dark`} key={`date-${i}`}>
                         {i + 1}
                     </td>
                     {columns(i)}
@@ -44,14 +44,6 @@ const Charts: React.FC<IChartsProps> = ({ months, results }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {/* {results && results.map((data: any, index: number) => (
-                        <tr  key={index}>
-                            <td className={cssStyle.Game}>{data.date}</td>
-                            {data.map((rs: string) =>
-                                <td className={`text-dark`} scope='col'>{rs !== "" ? rs : '00'}</td>
-                            )}
-                        </tr>
-                    ))} */}
                     {rows()}
                 </tbody>
             </table>

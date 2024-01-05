@@ -8,7 +8,6 @@ import Charts from "./Charts";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 const months: string[] = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const iterations = 2;
 const GameChart = () => {
     const { gamename } = useParams();
     const [results, setResults] = useState<any>(null);
@@ -30,7 +29,7 @@ const GameChart = () => {
         };
     
         fetchData();
-      }, []);
+      }, [gamename]);
 
     return (
         <>
@@ -44,9 +43,6 @@ const GameChart = () => {
             <DarkAdsCard />
             <LightAdsCard />
             <LiveResult />
-            {/* {Array.from({ length: iterations }).map((_, index) => (
-                <Charts key={index} months={months.slice(index * 6, index * 6 + 6)} results={results.slice(index * 6, index * 6 + 6)}  />
-            ))} */}
             {results && <Charts key={0} months={months.slice(0, 6)} results={results.slice(0, 6)}  />}
             {results && <Charts key={1} months={months.slice(6)} results={results.slice(6)}  />}
         </>
