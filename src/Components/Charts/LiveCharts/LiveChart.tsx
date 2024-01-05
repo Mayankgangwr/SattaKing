@@ -1,7 +1,30 @@
 import { Link } from 'react-router-dom';
 import cssStyle from './LiveChart.module.scss';
-import LiveChartData, { ILiveChartData } from './LiveChartData';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import moment from 'moment';
+interface ILiveChartData {
+    name: string,
+    time: string,
+    newresult: string,
+    oldresult: string
+}
 const LiveChart = () => {
+
+    const [liveChartData, setLiveChartData] = useState<ILiveChartData[] | null>(null);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('http://localhost/SattaApi/dailyrs.php');
+                setLiveChartData(response.data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, []);
     return (
         <div className={cssStyle.LiveChart}>
             <h1 className={`${cssStyle.Heading} bg-info text-light`}>ONLINE SATTA LIVE RESULT</h1>
@@ -21,12 +44,16 @@ const LiveChart = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {LiveChartData.map((data: ILiveChartData, index: number) => (
+                    {liveChartData && liveChartData.sort((a, b) => {
+                        const timeA = new Date(`2000-01-01 ${a.time}`);
+                        const timeB = new Date(`2000-01-01 ${b.time}`);
+                        return timeA.getTime() - timeB.getTime();
+                    }).map((data: ILiveChartData, index: number) => (
                         <tr key={index}>
-                            <td className={cssStyle.Game}><span className={cssStyle.GameName}>{data.game}</span><span className={cssStyle.GameTime}>{data.time}</span></td>
-                            <td className={`text-danger`}>{data.oldValue}</td>
-                            <td className={`text-warning`}>{data.newValue}</td>
-                            <td><Link className={`btn btn-danger fw-bold`} to={`/${data.chartLink}`}>Chart</Link></td>
+                            <td className={cssStyle.Game}><span className={cssStyle.GameName}>{data.name}</span><span className={cssStyle.GameTime}>{moment(data.time, "HH:mm:ss").format("hh:mm A")}</span></td>
+                            <td className={`text-danger`}>{data.oldresult}</td>
+                            <td className={`text-warning`}>{data.newresult}</td>
+                            <td><Link className={`btn btn-danger fw-bold`} to={`/gamechart/${index+1}`}>Chart</Link></td>
                         </tr>
                     ))}
                 </tbody>

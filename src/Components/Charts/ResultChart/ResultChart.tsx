@@ -1,12 +1,30 @@
 import cssStyle from './ResultChart.module.scss';
-import ResultData from './Data.json';
+interface IGames {
+    "DELHI-DARBAR": string;
+    "U.P": string;
+    "NEW FARIDABAD": string;
+    "DELHI DAY": string;
+    "GHAZIABAD DIN": string;
+    "TAJ": string;
+    "FARIDABAD": string;
+    "GHAZIABAD": string;
+    "GALI": string;
+    "DISAWAR": string | null; // Assuming "DISAWAR" can be a string or null
+}
+interface IResultChart {
+    date: string;
+    games: IGames;
+}
 interface IResultChartProps {
     Arr: any[];
+    resultChartData: IResultChart[];
+    month?: string;
 }
-const ResultChart: React.FC<IResultChartProps> = ({ Arr }) => {
+
+const ResultChart: React.FC<IResultChartProps> = ({ Arr, resultChartData, month }) => {
     return (
         <div className={cssStyle.ResultChart}>
-            <h1 className={`${cssStyle.Heading} bg-info text-light`}>ONLINE SATTA  RESULT CHART</h1>
+            <h1 className={`${cssStyle.Heading} bg-info text-light`}>{month ? month : "ONLINE SATTA  RESULT CHART"}</h1>
             <table className={`${cssStyle.Table} table table-striped`}>
                 <thead>
                     <tr>
@@ -17,7 +35,7 @@ const ResultChart: React.FC<IResultChartProps> = ({ Arr }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {ResultData.map((data: any, index: number) => (
+                    {resultChartData && resultChartData.map((data: any, index: number) => (
                         <tr key={index}>
                             <td className={cssStyle.Game}>{data.date}</td>
                             {Arr.map((name: any) =>
